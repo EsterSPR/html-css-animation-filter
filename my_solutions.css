@@ -40,3 +40,25 @@
     border-radius: 20px;
     transform: scale(1.5);
 }
+
+@keyframes rotate {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+.ex-11-icon:hover {
+    animation: hoverotate linear 1s;
+}
+
+@keyframes hoverotate {
+    0% {
+        transform: rotate(0);
+    }
+    93% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
